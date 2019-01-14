@@ -7,9 +7,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(long_planeteer_calls)
- Array.any? do |word|
-    word.length >= 4
-  end
+ array.any? {|word| word.length >4} 
 end
 
 def find_the_cheese# code an argument here
