@@ -7,8 +7,8 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(long_planeteer_calls)
- planeteer_calls.any? do |call|
-    call.length > 4
+ Array.any? do |word|
+    word.length >= 4
   end
 end
 
