@@ -7,7 +7,8 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(long_planeteer_calls)
-arrays.any?
+arrays.any? do |array|
+  
 end
 
 def find_the_cheese# code an argument here
