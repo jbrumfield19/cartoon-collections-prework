@@ -6,7 +6,7 @@ def summon_captain_planet(veggies)
   veggies.map{|n| n.capitalize + '!'}
 end
 
-def long_planeteer_calls(long_planeteer_calls)
+def long_planeteer_calls(array)
  array.any? {|word| word.length >4} 
 end
 
